@@ -11,7 +11,7 @@ from langchain.memory import ChatMessageHistory
 from .models import *
 from langchain.prompts.chat import SystemMessagePromptTemplate 
 # Configuration
-openai.api_key = "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"
+openai.api_key = ""
 
 class BotService:
     def __init__(self):
